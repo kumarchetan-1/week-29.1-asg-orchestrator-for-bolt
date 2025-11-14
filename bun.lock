@@ -6,6 +6,7 @@
       "dependencies": {
         "@aws-sdk/client-auto-scaling": "^3.927.0",
         "@aws-sdk/client-ec2": "^3.927.0",
+        "@types/dotenv": "^8.2.3",
         "@types/express": "types/express",
         "@types/typescript": "^2.0.0",
         "bun": "^1.3.2",
@@ -184,6 +185,8 @@
     "@smithy/util-waiter": ["@smithy/util-waiter@4.2.4", "", { "dependencies": { "@smithy/abort-controller": "^4.2.4", "@smithy/types": "^4.8.1", "tslib": "^2.6.2" } }, "sha512-roKXtXIC6fopFvVOju8VYHtguc/jAcMlK8IlDOHsrQn0ayMkHynjm/D2DCMRf7MJFXzjHhlzg2edr3QPEakchQ=="],
 
     "@smithy/uuid": ["@smithy/uuid@1.1.0", "", { "dependencies": { "tslib": "^2.6.2" } }, "sha512-4aUIteuyxtBUhVdiQqcDhKFitwfd9hqoSDYY2KRXiWtgoWJ9Bmise+KfEPDiVHWeJepvF8xJO9/9+WDIciMFFw=="],
+
+    "@types/dotenv": ["@types/dotenv@8.2.3", "", { "dependencies": { "dotenv": "*" } }, "sha512-g2FXjlDX/cYuc5CiQvyU/6kkbP1JtmGzh0obW50zD7OKeILVL0NSpPWLXVfqoAGQjom2/SLLx9zHq0KXvD6mbw=="],
 
     "@types/express": ["@types/express@github:types/express#7670cf1", { "dependencies": { "@types/serve-static": "github:types/npm-serve-static#c1f96843c8b96a37f6c534cb1dadb48f5329e4e0", "path-to-regexp": "github:pillarjs/path-to-regexp#ec285ed3500aed455df59e3b8b07f473412918a4" }, "peerDependencies": { "@types/node": "*" } }, "types-express-7670cf1"],
 
